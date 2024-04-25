@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 4d291fcf-fdf2-46ba-aa57-60bc75f9cc32)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 218.44 34.29) (size 30.48 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 15c3afc9-359a-4b66-87c6-8a45df4dc203)
+    (property "Sheetname" "Right Half" (at 218.44 33.5784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "righthalf.kicad_sch" (at 218.44 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "spruce_p3_together"
+        (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 170.18 33.02) (size 31.75 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3a24829b-ce14-49d4-98d7-9e234671ef28)
+    (property "Sheetname" "Left Half" (at 170.18 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "lefthalf.kicad_sch" (at 170.18 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "spruce_p3_together"
+        (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
